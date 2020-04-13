@@ -213,7 +213,7 @@ input[type=submit] {
       margin: auto;
       width: 30%;
       min-width: 400px;
-      height: 640px;
+      min-height: 600px;
     }
     .log-in-inner {
         @include baseBox(0,50px);
@@ -249,7 +249,6 @@ input[type=submit] {
     }
     h2 {
       margin: 0 0 20px;
-      text-align: center;
     }
     input[type=email],
     input[type=password],
@@ -266,6 +265,7 @@ input[type=submit] {
       margin: 50px auto;
       width: 30%;
       min-width: 400px;
+      min-height: 700px;
     }
     .log-in-inner {
         @include baseBox(0,50px);
