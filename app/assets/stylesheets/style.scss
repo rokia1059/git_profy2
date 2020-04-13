@@ -203,7 +203,7 @@ input[type=submit] {
     input[type=password],
     input[type=submit] {
       width: 100%;
-      margin: 10px 0;
+      marin: 10px 0;
     }
     .log-in {
       position: absolute;
@@ -214,7 +214,7 @@ input[type=submit] {
       margin: 50px auto;
       width: 30%;
       min-width: 400px;
-      min-height: 600px;
+      min-height: 700px;
     }
     .log-in-inner {
         @include baseBox(0,50px);
