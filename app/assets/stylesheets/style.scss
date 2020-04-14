@@ -203,24 +203,24 @@ input[type=submit] {
     input[type=password],
     input[type=submit] {
       width: 100%;
-      marin: 10px 0;
+      margin: 10px 0;
     }
     .log-in {
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      bottom: 0;
-      margin: 50px auto;
+      margin: auto;
       width: 30%;
       min-width: 400px;
-      min-height: 700px;
+      height: 640px;
     }
     .log-in-inner {
         @include baseBox(0,50px);
         border-radius: 5px;
         background-color: rgba(#fff,0.93);
         box-shadow: 0 3px 5px rgba(#000,.1);
+        margin-bottom: 50px;
     }
 }
 
@@ -251,6 +251,7 @@ input[type=submit] {
     }
     h2 {
       margin: 0 0 20px;
+      text-align: center;
     }
     input[type=email],
     input[type=password],
@@ -267,13 +268,13 @@ input[type=submit] {
       margin: 50px auto;
       width: 30%;
       min-width: 400px;
-      min-height: 800px;
     }
     .log-in-inner {
         @include baseBox(0,50px);
         border-radius: 5px;
         background-color: rgba(#fff,0.93);
         box-shadow: 0 3px 5px rgba(#000,.1);
+        margin-bottom: 50px;
     }
 }
 
