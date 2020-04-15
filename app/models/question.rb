@@ -2,6 +2,7 @@ class Question < ApplicationRecord
   belongs_to :user
   belongs_to :group
   has_many   :answers, dependent: :destroy
+  has_one :feet_content, as: :contentable, dependent: :destroy
   
   validates_presence_of :user_id, :text, :group_id
   
