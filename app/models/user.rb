@@ -10,7 +10,7 @@ class User < ApplicationRecord
          authentication_keys: [:email, :group_key]
          
   belongs_to :group
-  has_many  :questions, ->{order("created_at DESC")}
+  has_many  :questions, -> {order("created_at DESC")}
   
   before_validation :group_key_to_id, if: :has_group_key?
   
